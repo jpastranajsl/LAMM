@@ -1,0 +1,77 @@
+{
+    "latinAmericanMusicMagazine": {
+      "home": {
+        "welcome": "Welcome to Latin American Music Magazine",
+        "featuredArticles": {
+          "article": [
+            {
+              "title": "Bad Bunny Unveiled: The Latest Buzz Surrounding Latin Trap's Hottest Sensation",
+              "content": "From throwing cellphones fans to the ocean, to fighting an AI, this Puerto Rican star has it all. Click here to see the latest gossip about the most famous Latin artist of all times.",
+              "date": "April 21, 2024"
+            },
+            {
+              "title": "Natanael Cano: The New Face of Regional Mexican Music",
+              "content": "Does the number one artist in Mexico have what it takes to jump to be the number one artist in Latin America? Come with us and see how far he can get without tripping into a big scandal.",
+              "date": "April 21, 2024"
+            },
+            {
+              "title": "Rap or Dembow?",
+              "content": "In the new freestyle era we can now listen in Latin American street competitor freestyling Dembow. Click here to see what we think about it!",
+              "date": "April 21, 2024"
+            }
+          ]
+        },
+        "latestNews": {
+          "article": [
+            {
+              "title": "Coachella: Peso Pluma Brings Anitta to the Stage",
+              "content": "He is not fooling anyone by trying to make Nicki Nicole jealous, but will he take it too far?"
+            },
+            {
+              "title": "Arcangel, Wisin, Sech and More Added to Performers Lineup for 2024 Latin American Music Awards",
+              "content": "The ninth annual Latin AMAs has announced a new slate of performers, click on the article to see the entire list!"
+            },
+            {
+              "title": "Latin American Women Pioneering in Electronic Music",
+              "content": "In this magazine we like to make a tribute to the brave. Introducing Latin American artists to this new genre could only be a girl's idea."
+            }
+          ]
+        },
+        "usefulLinks": {
+          "url": [
+            "https://Threds.com/Kl73FGuHx9",
+            "https://Origins.com/Kl893FGuHx9"
+          ],
+          "description": "Additional information of The Mentioned Artists"
+        },
+        "voting": {
+          "url": "https://ArtistVote.com/zR5qIL2Pka",
+          "description": "Vote for your favorite artist of the magazine ;)"
+        },
+        "topArtists": {
+          "spotify": {
+            "url": "https://chartmasters.org/most-streamed-artists-ever-on-spotify/",
+            "description": "Check out the most streamed artists ever on Spotify"
+          },
+          "appleMusic": {
+            "url": "https://applemagazine.com/apple-announces-apple-music-awards-winners/50171",
+            "description": "Check out the most streamed artists ever on Apple Music"
+          }
+        },
+        "about": {
+          "magazineInfo": {
+            "content": [
+              "LatinMgz@gmail.com",
+              "Instagram: LatinMGZ",
+              "+420 678 987 234"
+            ]
+          },
+          "newsletterSubscription": {
+            "url": "https://SubsMgz.com/zR5qILpkQRa",
+            "description": "Purchase the subscription for more exclusive information and the latest news"
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Elements latin American Music Magazine -->
+    <xs:element name="latinAmericanMusicMagazine">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pageTitle" type="xs:string"/>
+                <xs:element name="home">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="welcome" type="xs:string"/>
+                            <xs:element name="featuredArticles">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="article" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="title" type="xs:string"/>
+                                                    <xs:element name="content" type="xs:string"/>
+                                                    <xs:element name="date" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <!-- Other elementos -->
+                            <xs:element name="about">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="magazineInfo" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="content" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="newsletterSubscription">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="url" type="xs:anyURI"/>
+                                                    <xs:element name="description" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="gender">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Male" />
+                                                    <xs:enumeration value="Female" />
+                                                    <xs:enumeration value="Other" />
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
